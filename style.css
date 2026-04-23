@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f6fbf4;
+    color: #1a3b2f;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+/* Importação Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+h1, h2, h3, .logo {
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0b3b2f 0%, #1b5e3f 100%);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo-area h1 {
+    font-size: 1.7rem;
+    letter-spacing: -0.5px;
+}
+
+.logo-area p {
+    font-size: 0.85rem;
+    opacity: 0.85;
+    font-weight: 500;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+}
+
+.nav-links a:hover {
+    border-bottom-color: #d4e66a;
+    color: #e6f7a3;
+}
+
+/* Hero */
+.hero {
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAwIDQwMCIgd2lkdGg9IjE0MDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iMTQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiMxOTViMzgiLz48cGF0aCBkPSJNMCAyNTBhMjUwIDI1MCAwIDAgMCA1MDAgMCAyNTAgMjUwIDAgMCAwIDUwMCAwIDI1MCAyNTAgMCAwIDAgNTAwIDAgMjUwIDI1MCAwIDAgMCA1MDAgMCIgZmlsbD0iIzBkNGQyYyIgb3BhY2l0eT0iMC4xIi8+PC9zdmc+') no-repeat center center/cover;
+    background-color: #22643e;
+    background-blend-mode: overlay;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-weight: 500;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d9e62b;
+    color: #1f4f2d;
+    font-weight: 800;
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.2s, background 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    background-color: #c2d32a;
+    transform: scale(1.02);
+}
+
+/* Seções gerais */
+section {
+    padding: 70px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 16px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-title span {
+    background: linear-gradient(120deg, #1f5e3a, #3c9e5e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.subtitle-center {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #2d5a42;
+    font-size: 1.2rem;
+}
+
+/* Cards */
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 32px;
+    padding: 32px 24px;
+    flex: 1 1 280px;
+    box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    border: 1px solid #e0f0e5;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 
