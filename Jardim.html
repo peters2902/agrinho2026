@@ -1,0 +1,257 @@
+<!-- Página do Projeto da Escola - Mini Jardim Botânico Monitorado -->
+<section id="projeto-escola" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6d9 100%);">
+    <div class="container">
+        <div class="projeto-header">
+            <span class="badge-projeto">🏫 Projeto Agrinho na Escola</span>
+            <h2 class="section-title"><span>🌱 Mini Jardim Botânico Monitorado</span></h2>
+            <p class="subtitle-center">Tecnologia e sustentabilidade unidas em um espaço educativo - inspirado no Jardim Botânico de Curitiba</p>
+        </div>
+
+        <!-- Cards de informações do projeto -->
+        <div class="projeto-info-grid">
+            <div class="info-card">
+                <div class="info-icon">📍</div>
+                <h3>Localização</h3>
+                <p>Espaço sustentável da nossa escola<br><strong>Inspirado no Jardim Botânico de Curitiba - Paraná</strong></p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📅</div>
+                <h3>Início do Projeto</h3>
+                <p>Março de 2025<br><strong>Em constante evolução</strong></p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">👥</div>
+                <h3>Equipe</h3>
+                <p>Alunos do ensino fundamental/médio<br><strong>Orientados por professores de Ciências e Tecnologia</strong></p>
+            </div>
+        </div>
+
+        <!-- Visualização da Câmera + Sensores (Layout Principal) -->
+        <div class="monitoramento-grid">
+            <!-- Câmera estática com imagem fixa -->
+            <div class="camera-live">
+                <div class="card-header">
+                    <span class="live-dot"></span>
+                    <h3>📷 Câmera em Tempo Real</h3>
+                    <span class="badge-live">DEMONSTRAÇÃO</span>
+                </div>
+                <div class="camera-container">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%232d5a42'/%3E%3Ctext x='400' y='200' font-size='24' fill='white' text-anchor='middle' font-family='monospace'%3E📸 MINI JARDIM BOTÂNICO%3C/text%3E%3Ctext x='400' y='240' font-size='18' fill='#c8e6d9' text-anchor='middle'%3EImagem da câmera ao vivo%3C/text%3E%3Ctext x='400' y='270' font-size='14' fill='#a5d6a7' text-anchor='middle'%3EMonitoramento 24h%3C/text%3E%3C/svg%3E" alt="Câmera do Jardim Botânico Escolar">
+                    <div class="camera-overlay">
+                        <p>🖼️ Monitoramento visual do jardim</p>
+                        <small>Jardim Botânico Escolar - Em funcionamento</small>
+                    </div>
+                </div>
+                <div class="camera-info">
+                    <p>📍 Câmera posicionada estrategicamente para acompanhar o crescimento das plantas</p>
+                </div>
+            </div>
+
+            <!-- Painel de Sensores com dados estáticos demonstrativos -->
+            <div class="sensores-panel">
+                <h3>📊 Sensores Inteligentes</h3>
+                
+                <!-- Sensor Umidade do Solo -->
+                <div class="sensor-item">
+                    <div class="sensor-info">
+                        <span class="sensor-icon">💧</span>
+                        <span>Umidade do Solo</span>
+                        <span class="sensor-value">65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill umidade-fill"></div>
+                    </div>
+                    <span class="sensor-status">✅ Umidade ideal para as plantas</span>
+                </div>
+
+                <!-- Sensor Temperatura do Ar -->
+                <div class="sensor-item">
+                    <div class="sensor-info">
+                        <span class="sensor-icon">🌡️</span>
+                        <span>Temperatura do Ar</span>
+                        <span class="sensor-value">24°C</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill temp-fill"></div>
+                    </div>
+                    <span class="sensor-status">🌡️ Temperatura confortável para o jardim</span>
+                </div>
+
+                <!-- Sensor Nível da Água -->
+                <div class="sensor-item">
+                    <div class="sensor-info">
+                        <span class="sensor-icon">💦</span>
+                        <span>Nível da Água (Reservatório)</span>
+                        <span class="sensor-value">72%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill agua-fill"></div>
+                    </div>
+                    <span class="sensor-status">🟢 Reservatório adequado</span>
+                </div>
+
+                <!-- Status da Plantação - DESTAQUE -->
+                <div class="sensor-item destaque">
+                    <div class="sensor-info">
+                        <span class="sensor-icon">🌿</span>
+                        <span>Status da Plantação</span>
+                        <span class="sensor-value status-bom">EM DESENVOLVIMENTO</span>
+                    </div>
+                    <div class="status-message">
+                        📈 Plantas saudáveis! Continue monitorando.<br>
+                        <strong>Previsão de colheita: 15 dias</strong>
+                    </div>
+                    <div class="colheita-indicator">
+                        <div class="progresso-colheita">
+                            <div class="colheita-progresso" style="width: 65%;"></div>
+                        </div>
+                        <p style="margin-top: 8px;">🌱 Ciclo atual: 65% completo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sistema explicativo - como funciona -->
+        <div class="sistema-explicativo">
+            <h3>🔧 Como funciona nosso sistema de monitoramento?</h3>
+            <div class="explicativo-grid">
+                <div class="explicativo-item">
+                    <div class="explicativo-numero">1</div>
+                    <h4>Sensores no solo</h4>
+                    <p>Sensor de umidade YL-69 mede a água disponível para as raízes</p>
+                </div>
+                <div class="explicativo-item">
+                    <div class="explicativo-numero">2</div>
+                    <h4>Sensores climáticos</h4>
+                    <p>DHT22 monitora temperatura e umidade do ar em tempo real</p>
+                </div>
+                <div class="explicativo-item">
+                    <div class="explicativo-numero">3</div>
+                    <h4>Sensor ultrassônico</h4>
+                    <p>HC-SR04 verifica o nível da água do reservatório</p>
+                </div>
+                <div class="explicativo-item">
+                    <div class="explicativo-numero">4</div>
+                    <h4>Placa Arduino/ESP32</h4>
+                    <p>Processa os dados e exibe neste painel</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabela de Leituras dos Sensores (dados históricos) -->
+        <div class="tabela-leituras">
+            <h3>📋 Histórico de Leituras (últimas 24h)</h3>
+            <div class="table-responsive">
+                <table class="sensor-table">
+                    <thead>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Umidade Solo</th>
+                            <th>Temperatura</th>
+                            <th>Nível Água</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00</td>
+                            <td>62%</td>
+                            <td>22°C</td>
+                            <td>70%</td>
+                            <td class="status-ok">✅ Saudável</td>
+                        </tr>
+                        <tr>
+                            <td>10:00</td>
+                            <td>64%</td>
+                            <td>24°C</td>
+                            <td>72%</td>
+                            <td class="status-ok">✅ Saudável</td>
+                        </tr>
+                        <tr>
+                            <td>12:00</td>
+                            <td>63%</td>
+                            <td>26°C</td>
+                            <td>71%</td>
+                            <td class="status-ok">✅ Saudável</td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>61%</td>
+                            <td>27°C</td>
+                            <td>70%</td>
+                            <td class="status-warning">⚠️ Atenção à temperatura</td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>65%</td>
+                            <td>25°C</td>
+                            <td>72%</td>
+                            <td class="status-ok">✅ Saudável</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Galeria do projeto com imagens demonstrativas -->
+        <div class="galeria-projeto">
+            <h3>📸 Nosso Jardim Botânico - Etapas do Projeto</h3>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <div class="galeria-img-placeholder preparo"></div>
+                    <p>🌱 Preparação do solo - Março/2025</p>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-img-placeholder plantio"></div>
+                    <p>🌿 Plantio das mudas nativas</p>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-img-placeholder sensores"></div>
+                    <p>🔧 Instalação dos sensores Arduino</p>
+                </div>
+                <div class="galeria-item">
+                    <div class="galeria-img-placeholder jardim"></div>
+                    <p>🌻 Jardim em desenvolvimento - hoje</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inspiração Jardim Botânico Curitiba -->
+        <div class="inspiracao-curitiba">
+            <div class="inspiracao-texto">
+                <h3>🏛️ Inspiração: Jardim Botânico de Curitiba</h3>
+                <p>Nosso projeto se inspira na estufa de vidro e na diversidade de espécies do famoso Jardim Botânico Fanchette Rischbieter. Assim como Curitiba é referência em sustentabilidade urbana, queremos levar esse conceito para dentro da escola, com monitoramento tecnológico e educação ambiental.</p>
+                <p><strong>🌎 Conexão com o tema Agrinho:</strong> Equilíbrio entre produção (horta/jardim) e conservação do meio ambiente, formando jovens conscientes.</p>
+                <div class="destaque-curitiba">
+                    <span>🌿</span> Curitiba: Referência mundial em áreas verdes
+                </div>
+            </div>
+            <div class="inspiracao-foto">
+                <div class="curitiba-placeholder"></div>
+            </div>
+        </div>
+
+        <!-- Benefícios do projeto -->
+        <div class="beneficios-projeto">
+            <h3>🎯 Benefícios do nosso Jardim Monitorado</h3>
+            <div class="beneficios-grid">
+                <div class="beneficio">
+                    <span class="beneficio-icon">💧</span>
+                    <p>Economia de <strong>40% de água</strong> com irrigação inteligente</p>
+                </div>
+                <div class="beneficio">
+                    <span class="beneficio-icon">📈</span>
+                    <p>Aumento de <strong>35% na produtividade</strong> das plantas</p>
+                </div>
+                <div class="beneficio">
+                    <span class="beneficio-icon">🎓</span>
+                    <p>Aprendizado prático em <strong>tecnologia e sustentabilidade</strong></p>
+                </div>
+                <div class="beneficio">
+                    <span class="beneficio-icon">🦋</span>
+                    <p>Atração de <strong>polinizadores</strong> (abelhas, borboletas)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
