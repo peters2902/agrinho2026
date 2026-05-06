@@ -79,7 +79,7 @@ header {
 /* Hero */
 .hero {
     background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAwIDQwMCIgd2lkdGg9IjE0MDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iMTQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiMxOTViMzgiLz48cGF0aCBkPSJNMCAyNTBhMjUwIDI1MCAwIDAgMCA1MDAgMCAyNTAgMjUwIDAgMCAwIDUwMCAwIDI1MCAyNTAgMCAwIDAgNTAwIDAgMjUwIDI1MCAwIDAgMCA1MDAgMCIgZmlsbD0iIzBkNGQyYyIgb3BhY2l0eT0iMC4xIi8+PC9zdmc+') no-repeat center center/cover;
-    background-color: #38a566;
+    background-color: #22643e;
     background-blend-mode: overlay;
     padding: 80px 0;
     color: white;
