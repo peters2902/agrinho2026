@@ -28,7 +28,7 @@ h1, h2, h3, .logo {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #0b3b2f 0%, #1b5e3f 100%);
+    background: linear-gradient(135deg, #0b3b2f 0%, #2e9766 100%);
     color: white;
     padding: 20px 0;
     box-shadow: 0 12px 28px rgba(0,0,0,0.08);
